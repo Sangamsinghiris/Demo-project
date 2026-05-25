@@ -1,0 +1,16 @@
+2026-05-20 23:22:00,232 INFO B.BaseTest [main] Launching browser
+2026-05-20 23:24:49,043 INFO B.BaseTest [main] Launching browser
+2026-05-20 23:38:19,676 INFO B.BaseTest [main] Launching browser
+2026-05-20 23:42:02,642 INFO B.BaseTest [main] Starting test execution
+2026-05-20 23:42:02,916 INFO B.BaseTest [main] Login successful
+2026-05-20 23:42:03,045 ERROR B.BaseTest [main] Test Failed
+2026-05-20 23:42:05,150 INFO B.BaseTest [main] Browser closed & report generated
+2026-05-20 23:44:47,862 INFO B.BaseTest [main] Launching browser
+2026-05-21 15:56:30,176 INFO B.BaseTest [main] Launching browser
+2026-05-21 15:56:49,644 INFO B.BaseTest [main] Starting test execution
+2026-05-21 15:56:50,531 INFO B.BaseTest [main] Login successful
+2026-05-21 15:56:51,177 INFO B.BaseTest [main] Product added to cart
+2026-05-21 15:56:51,561 INFO B.BaseTest [main] Checkout started
+2026-05-21 15:56:54,848 INFO B.BaseTest [main] Purchase completed successfully
+2026-05-21 15:56:54,893 INFO B.BaseTest [main] Test Passed
+2026-05-21 15:57:03,350 INFO B.BaseTest [main] Browser closed & report generated
