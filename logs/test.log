@@ -14,3 +14,256 @@
 2026-05-21 15:56:54,848 INFO B.BaseTest [main] Purchase completed successfully
 2026-05-21 15:56:54,893 INFO B.BaseTest [main] Test Passed
 2026-05-21 15:57:03,350 INFO B.BaseTest [main] Browser closed & report generated
+2026-05-25 18:09:15,310 INFO B.BaseTest [main] Launching browser
+2026-05-25 18:09:23,547 INFO B.BaseTest [main] Starting test execution
+2026-05-25 18:09:23,891 INFO B.BaseTest [main] Login successful
+2026-05-25 18:09:24,074 INFO B.BaseTest [main] Product added to cart
+2026-05-25 18:09:24,160 INFO B.BaseTest [main] Checkout started
+2026-05-25 18:09:24,477 ERROR B.BaseTest [main] Test Failed
+2026-05-25 18:09:25,149 INFO B.BaseTest [main] Browser closed & report generated
+2026-05-27 14:04:48,048 INFO B.BaseTest [main] Launching browser
+2026-05-27 14:04:58,590 INFO B.BaseTest [main] Starting test execution
+2026-05-27 14:04:58,951 INFO B.BaseTest [main] Login successful
+2026-05-27 14:04:59,136 INFO B.BaseTest [main] Product added to cart
+2026-05-27 14:04:59,214 INFO B.BaseTest [main] Checkout started
+2026-05-27 14:04:59,497 ERROR B.BaseTest [main] Test Failed
+2026-05-27 14:05:00,262 INFO B.BaseTest [main] Browser closed & report generated
+2026-05-28 16:22:03,743 INFO B.BaseTest [main] Launching browser
+2026-05-28 16:34:12,408 INFO B.BaseTest [main] Launching browser
+2026-05-28 16:37:59,148 INFO B.BaseTest [main] Starting test execution
+2026-05-28 16:37:59,624 INFO B.BaseTest [main] Login successful
+2026-05-28 16:37:59,822 INFO B.BaseTest [main] Product added to cart
+2026-05-28 16:37:59,914 INFO B.BaseTest [main] Checkout started
+2026-05-28 16:38:00,344 ERROR B.BaseTest [main] Test Failed
+2026-05-28 16:38:02,843 INFO B.BaseTest [main] Browser closed & report generated
+2026-05-28 17:07:28,064 INFO B.BaseTest [main] Launching browser
+2026-05-28 17:10:25,345 INFO B.BaseTest [main] Launching browser
+2026-05-28 17:11:52,916 INFO B.BaseTest [main] Launching browser
+2026-05-28 17:14:09,841 INFO B.BaseTest [main] Starting test execution
+2026-05-28 17:14:11,113 INFO B.BaseTest [main] Login successful
+2026-05-28 17:14:11,955 INFO B.BaseTest [main] Product added to cart
+2026-05-28 17:14:12,404 INFO B.BaseTest [main] Checkout started
+2026-05-28 17:14:14,800 INFO B.BaseTest [main] Purchase completed successfully
+2026-05-28 17:14:14,841 INFO B.BaseTest [main] Test Passed
+2026-05-28 17:14:19,227 INFO B.BaseTest [main] Browser closed & report generated
+2026-05-28 17:29:33,840 INFO B.BaseTest [main] Launching browser
+2026-05-28 17:32:55,410 INFO B.BaseTest [main] Starting Login Test
+2026-05-28 17:32:56,970 INFO B.BaseTest [main] Login successful
+2026-05-28 17:32:57,185 INFO B.BaseTest [main] Test Passed
+2026-05-28 17:32:57,319 INFO B.BaseTest [main] Starting Add Product Test
+2026-05-28 17:32:58,431 INFO B.BaseTest [main] Product added to cart
+2026-05-28 17:32:58,447 INFO B.BaseTest [main] Test Passed
+2026-05-28 17:32:58,457 INFO B.BaseTest [main] Starting Checkout Test
+2026-05-28 17:32:58,715 ERROR B.BaseTest [main] Test Failed
+2026-05-28 17:32:59,502 INFO B.BaseTest [main] Entering checkout details
+2026-05-28 17:33:11,187 ERROR B.BaseTest [main] Test Failed
+2026-05-28 17:33:12,129 INFO B.BaseTest [main] Finishing order
+2026-05-28 17:33:22,967 ERROR B.BaseTest [main] Test Failed
+2026-05-28 17:33:31,233 INFO B.BaseTest [main] Browser closed & report generated
+2026-05-28 18:09:01,280 INFO B.BaseTest [main] Launching browser
+2026-05-28 18:11:09,806 INFO B.BaseTest [main] Launching browser
+2026-05-28 22:14:08,327 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-28 22:14:28,496 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-28 22:23:36,347 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-28 22:25:10,967 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-28 22:26:40,877 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-28 22:28:56,244 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-28 22:34:02,763 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-28 22:34:02,984 ERROR B.BasePage [main] Setup failed
+org.openqa.selenium.remote.NoSuchDriverException: chromedriver at location path/to/chromedriver, does not exist
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:76) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:33) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at Base.BasePage.setup(BasePage.java:44) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-05-29 00:26:53,673 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 00:26:53,731 ERROR B.BasePage [main] Setup failed
+org.openqa.selenium.remote.NoSuchDriverException: chromedriver at location path/to/chromedriver, does not exist
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:76) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:33) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52) ~[selenium-chrome-driver-4.18.1.jar:?]
+	at Base.BasePage.setup(BasePage.java:44) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-05-29 00:30:07,484 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 00:33:35,323 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 00:39:16,428 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 00:40:47,164 ERROR B.BasePage [main] Setup failed
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54dbec76b0875b8c042dbd3e0bd10cfb, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGAM~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60768}, goog:processID: 16528, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54dbec76b0875b8c042dbd3e0bd10cfb
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596) ~[selenium-remote-driver-4.18.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035) ~[selenium-remote-driver-4.18.1.jar:?]
+	at Base.BasePage.setup(BasePage.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2026-05-29 00:45:46,816 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 00:46:24,843 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 00:46:25,087 INFO B.BasePage [main] Closing browser...
+2026-05-29 00:46:26,129 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 00:50:06,546 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 00:50:12,248 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 00:50:12,314 INFO B.BasePage [main] Closing browser...
+2026-05-29 00:50:12,800 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 01:00:37,129 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:00:43,851 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:00:44,028 ERROR B.BasePage [main] Test Failed: buyProductTest
+2026-05-29 01:00:44,030 INFO B.BasePage [main] Closing browser...
+2026-05-29 01:00:44,650 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 01:03:14,107 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:03:20,405 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:03:20,576 ERROR B.BasePage [main] Test Failed: buyProductTest
+2026-05-29 01:08:07,820 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:08:14,094 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:08:14,732 ERROR B.BasePage [main] Test Failed: buyProductTest
+2026-05-29 01:09:18,834 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:09:24,856 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:09:25,532 ERROR B.BasePage [main] Test Failed: buyProductTest
+2026-05-29 01:14:08,415 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:14:14,559 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:14:35,746 ERROR B.BasePage [main] Test Failed: buyProductTest
+2026-05-29 01:20:27,855 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:20:34,368 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:20:36,127 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 01:27:06,310 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:27:12,229 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:27:13,829 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 01:28:17,174 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:28:23,168 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:28:24,602 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 01:35:50,945 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:36:04,693 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:36:09,028 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 01:39:32,562 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 01:39:46,147 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 01:39:51,077 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 01:39:51,084 INFO B.BasePage [main] Closing browser...
+2026-05-29 01:39:52,982 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 10:09:51,502 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 10:10:09,167 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 10:10:15,638 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 10:10:15,644 INFO B.BasePage [main] Closing browser...
+2026-05-29 10:10:19,686 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 10:19:07,703 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 10:19:22,265 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 10:19:30,181 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 10:19:30,192 INFO B.BasePage [main] Closing browser...
+2026-05-29 10:19:32,285 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 10:22:41,881 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 10:22:59,998 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 10:23:00,467 ERROR B.BasePage [main] Test Failed: buyProductTest
+2026-05-29 10:23:00,476 INFO B.BasePage [main] Closing browser...
+2026-05-29 10:23:02,642 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 10:23:21,672 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 10:23:40,120 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 10:23:40,549 ERROR B.BasePage [main] Test Failed: buyProductTest
+2026-05-29 10:23:40,559 INFO B.BasePage [main] Closing browser...
+2026-05-29 10:23:42,995 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 10:24:22,950 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 10:24:37,061 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 10:24:41,613 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 10:24:41,620 INFO B.BasePage [main] Closing browser...
+2026-05-29 10:24:43,589 INFO B.BasePage [main] Browser closed successfully
+2026-05-29 10:28:44,269 INFO B.BasePage [main] Launching Chrome Browser
+2026-05-29 10:29:05,154 INFO B.BasePage [main] URL opened: https://www.saucedemo.com/
+2026-05-29 10:29:09,858 INFO B.BasePage [main] Test Passed: buyProductTest
+2026-05-29 10:29:09,869 INFO B.BasePage [main] Closing browser...
+2026-05-29 10:29:11,724 INFO B.BasePage [main] Browser closed successfully

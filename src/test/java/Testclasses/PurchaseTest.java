@@ -1,52 +1,58 @@
 package Testclasses;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import Base.BaseTest;
-import pages.CartPage;
-import pages.CheckoutPage;
-import pages.LoginPage;
-import pages.ProductsPage;
+import Base.BasePage;
+import pages.*;
 
-import org.testng.annotations.Test;
-
-public class PurchaseTest extends BaseTest {
+public class PurchaseTest extends BasePage {
 
     @Test
     public void buyProductTest() {
 
+        test = extent.createTest("Buy Product Test");
 
-test = extent.createTest("Buy Product Test");
+        // ===== Step 1: Login =====
+        test.info("Step 1: Login to application");
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.login();
+        test.pass("Login successful");
 
-        log.info("Starting test execution");
+        // ===== Step 2: Add product =====
+        test.info("Step 2: Add product to cart");
+        ProductsPage productsPage = new ProductsPage(driver);
+        productsPage.addProductToCart();
+        test.pass("Product added");
 
-        LoginPage login = new LoginPage(driver);
-        login.login();
-        log.info("Login successful");
-        
-        
-        ProductsPage product = new ProductsPage(driver);
-        product.addProductToCart();
-        product.goToCart();
-        log.info("Product added to cart");
-        
+        // ===== Step 3: Go to cart =====
+        test.info("Step 3: Open cart");
+        productsPage.goToCart();
+        test.pass("Cart opened");
 
-        CartPage cart = new CartPage(driver);
-        cart.clickCheckout();
-        log.info("Checkout started");
-        
-        
+        // ===== Step 4: Checkout =====
+        test.info("Step 4: Start checkout");
+        CartPage cartPage = new CartPage(driver);
+        cartPage.clickCheckout();
+        test.pass("Checkout started");
 
-        CheckoutPage checkout = new CheckoutPage(driver);
-        checkout.enterDetails();
-        checkout.finishOrder();
+        // ===== Step 5: Enter details =====
+        test.info("Step 5: Enter user details");
+        CheckoutPage checkoutPage = new CheckoutPage(driver);
+        checkoutPage.enterDetails();
+        test.pass("Details entered");
 
-log.info("Purchase completed successfully");
+        // ===== Step 6: Finish order =====
+        test.info("Step 6: Complete order");
+        checkoutPage.finishOrder();
+        test.pass("Order completed");
 
-        test.pass("Purchase flow executed successfully");
+        // ===== Step 7: Logout =====
+        test.info("Step 7: Logout");
+        LogoutPage logoutPage = new LogoutPage(driver);
+        logoutPage.logout();
+        test.pass("Logout successful");
 
-
-        System.out.println("✅ Purchase Completed Successfully");
+        // ===== Final =====
+        test.pass("Test completed successfully ✅");
     }
 }

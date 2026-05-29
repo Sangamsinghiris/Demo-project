@@ -1,31 +1,40 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import Utils.ConfigReader;
+import Utils.WaitUtils;
 
 public class LoginPage {
 
     WebDriver driver;
+    WaitUtils wait;
+
+    @FindBy(id = "user-name")
+    WebElement usernameField;
+
+    @FindBy(id = "password")
+    WebElement passwordField;
+
+    @FindBy(id = "login-button")
+    WebElement loginButton;
 
     public LoginPage(WebDriver driver) {
-    	this.driver = driver;
-	}
+        this.driver = driver;
+        this.wait = new WaitUtils(driver);
+        PageFactory.initElements(driver, this);
+    }
 
-    private By username = By.id("user-name");
-       private By password = By.id("password");
-       private By loginBtn = By.id("login-button");
+    public void login() {
+        wait.waitForElementVisible(usernameField)
+            .sendKeys(ConfigReader.get("username"));
 
-       
-       public void login() {
-    	   
-    	   driver.findElement(username).sendKeys(ConfigReader.get("username"));
-    	   driver.findElement(password).sendKeys(ConfigReader.get("password"));
-    	   driver.findElement(loginBtn).click();
-       }
-	
+        wait.waitForElementVisible(passwordField)
+            .sendKeys(ConfigReader.get("password"));
+
+        wait.waitForElementClickable(loginButton).click();
+    }
 }
-
-
-
